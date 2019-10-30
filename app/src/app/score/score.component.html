@@ -1,0 +1,25 @@
+<!-- <button (click)=posts()>post</button> -->
+<h2>scores of previous player</h2>
+
+<!-- {{count}} -->
+<table class="table table-striped table-dark">
+    <thead>
+        <tr>
+
+            <th scope="col">PlayerName</th>
+            <th scope="col">Score</th>
+        </tr>
+    </thead>
+    <tbody *ngFor="let score of scores">
+        <tr>
+            <td>{{score.playerName}}</td>
+            <td>{{score.score}}</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<!-- <ul [style.list-style-type]="none" *ngFor="let score of scores"> -->
+<!-- <li>{{score.playerName}} ==>> {{score.score}}</li> -->
+
+<!-- </ul> -->

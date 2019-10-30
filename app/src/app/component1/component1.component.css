@@ -1,0 +1,58 @@
+.input {
+    margin: auto;
+    width: 60%;
+    /* border: 3px solid #73AD21; */
+    padding-left: 400px;
+    float: left;
+}
+
+#glyphicon1 {
+    float: right;
+    margin-top: 320px;
+}
+
+.glyphicon {
+    font-size: 30px;
+}
+
+.verticalLine {
+    border-left: thick solid #ff0000;
+    height: 300px;
+    float: right;
+}
+
+#postbtn {
+    float: right;
+    padding: 10px;
+    width: 5em;
+    height: 3em;
+    padding-top: 5px;
+}
+
+#displayscore {
+    padding-left: 1200px;
+}
+
+#inputname {
+    padding: 15px;
+}
+
+#submitbtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+#btn {
+    display: inline-block;
+    margin: 4px 2px;
+    width: 20em;
+    height: 10em;
+    margin-left: 300px;
+}

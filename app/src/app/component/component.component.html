@@ -1,0 +1,57 @@
+<!-- <div class="col-sm-24">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <app-component1 [parentdata]="value1"></app-component1>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-16">
+        <div class="card">
+            <div class="card-body">
+                <app-component2 [parentdata]="value2"></app-component2>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <app-component3 [parentdata]="value3"></app-component3>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <app-component4 [parentdata]="value4"></app-component4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<table style="width: 100%">
+    <tr>
+        <td>
+            <app-component1 [parentdata]="value1"></app-component1>
+        </td>
+        <td>
+            <app-component2 [parentdata]="value2"></app-component2>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <app-component3 [parentdata]="value3"></app-component3>
+        </td>
+        <td>
+            <app-component4 [parentdata]="value4"></app-component4>
+        </td>
+    </tr>
+</table> -->
+<nav>
+    <button id="btn" class="nav-item nav-link-edit" [routerLink]="['/score']">score</button >
+</nav>

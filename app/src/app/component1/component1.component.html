@@ -1,0 +1,38 @@
+<p>
+</p>
+
+<h1 id="displayscore">{{count}}</h1>
+
+<div class="input">
+    <input id="inputname" #playerName type="text" placeholder="player name">
+    <button id="submitbtn" (click)=onsubmit(playerName.value)>submit  name </button>
+</div>
+
+<span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span><span><b>Go to post after submiting ur name</b></span>
+<p>
+    --------------------------------------------------------------------------------------------->
+</p>
+<p>
+    <button id="postbtn" (click)=posts()>post</button>
+</p>
+
+<div class="verticalLine">
+
+</div>
+<p id="glyphicon1"><span class="glyphicon glyphicon-hand-down" aria-hidden="true"></span>
+    <span><b>To see all previous score</b></span>
+</p>
+
+<button id="btn" [style.background]="change ? 'red' : 'orange'" #myid (click)=onclick(change)>
+
+</button>
+
+<!-- <p></p>
+<button [style.background]="change1 ? 'red' : 'orange'" #myid1 (click)=onclick(change1)>button2</button>
+
+<p></p>
+<button [style.background]="change2 ? 'red' : 'orange'" #myid2 (click)=onclick(change2)>button3</button>
+
+<p></p>
+<button [style.background]="change3 ? 'red' : 'orange'" #myid3 (click)=onclick(change2)>button4</button> -->
+<!-- <app-score></app-score> -->
